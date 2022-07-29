@@ -12,7 +12,8 @@ class Calendar extends Component {
 
     state = {
         timeClass: "appointment-time--none",
-        dateNumberClass: "date-card__available"
+        dateNumberClass: "date-card__available",
+        buttonClass: "confirm-button"
     }
 
     handleDateClick = () => {
@@ -29,7 +30,14 @@ class Calendar extends Component {
 
 
     handleAppointmentClick = () => {
-        console.log(this.props.history.push("/"))
+        // console.log(this.props.history.push("/"))
+        this.setState({
+            buttonClass: "confirm-button--green"
+        })
+    }
+
+    handleConfirmClick = () => {
+        this.props.history.push("/health")
     }
 
 
@@ -189,7 +197,7 @@ class Calendar extends Component {
                     <p className='appointment-time__timeframes'>14:00-15:00</p>
                 </section>
                 </div>
-                <button className='confirm-button'>Confirm</button>
+                <button onClick={this.handleConfirmClick}className={`confirm-button ${this.state.buttonClass}`}>Confirm</button>
             </section>
             </>
         );
