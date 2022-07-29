@@ -1,6 +1,7 @@
-
+@use '../../styles/partials/fonts' as *;
 
 .navigation {
+font-family: 'Google Sans';
 
     &__list {
         list-style-type: none;
