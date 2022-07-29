@@ -1,0 +1,22 @@
+@use '../../styles/partials/fonts' as *;
+
+.navigation {
+font-family: 'Google Sans';
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        width: 20%;
+        height: 100vh;
+    }
+    &__list-item {
+        padding: 0.5rem 1rem;
+    }
+    &__list-item--selected {
+        background-color: #E9F0FD;
+        width: 80%;
+        border-radius: 0 1.25rem 1.25rem 0;
+    }
+}

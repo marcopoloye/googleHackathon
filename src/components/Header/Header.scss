@@ -1,7 +1,11 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/fonts' as *;
+
 .header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-family: 'Google Sans';
     &__row {
         display: flex;
         justify-content: center;
@@ -9,14 +13,19 @@
     }
     &__title {
         font-size: 1.5rem ;
-        font-family:sans-serif ;
+        font-family: sans-serif ;
         margin: 1rem 1.5rem 1rem 1.5rem;
+        font-family: 'Google Sans';
     }
     &__search-bar {
         width: 36rem;
         padding: 0.5rem 1rem 0.5rem 0.5rem;
         border-radius: 0.01rem;
         border: 0.09rem solid rgb(180, 178, 178);
+        background-color: #F1F3F4;
+        border-radius: 0.5rem;
+    } ::placeholder {
+        font-family: 'Google Sans'
     }
     &__row-avatar {
         width: 3rem;
