@@ -27,6 +27,10 @@
         vertical-align: sub;
         font-size: 1rem;
         padding-left: 0.5rem;
+        font-weight: normal;
+    }
+    &__search {
+        position: relative;
     }
     &__search-bar {
         width: 36rem;
@@ -38,6 +42,12 @@
     } ::placeholder {
         font-family: 'Google Sans'
     }
+    &__microphone {
+        position:relative ;
+        top: 0.5rem;
+        right: 3rem;
+        width: 2rem;
+    }
     &__row-avatar {
         display: flex;
         justify-content: space-between;
@@ -46,6 +56,7 @@
     
     &__avatar-box {
         border: 0 solid white;
+        margin-right: 4rem;
     }
 
     &__avatar {
