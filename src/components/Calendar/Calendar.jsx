@@ -56,7 +56,7 @@ const Calendar = () => {
         {isDoctorAvailable: false,
         dayNumber: "14",
         isDoctorScheduled: false},
-        {isDoctorAvailable: false,
+        {isDoctorAvailable: true,
         dayNumber: "15",
         isDoctorScheduled: false},
         {isDoctorAvailable: false,
@@ -65,7 +65,7 @@ const Calendar = () => {
         {isDoctorAvailable: false,
         dayNumber: "17",
         isDoctorScheduled: false},
-        {isDoctorAvailable: false,
+        {isDoctorAvailable: true,
         dayNumber: "18",
         isDoctorScheduled: false},
         {isDoctorAvailable: false,
@@ -83,7 +83,7 @@ const Calendar = () => {
         {isDoctorAvailable: false,
         dayNumber: "23",
         isDoctorScheduled: false},
-        {isDoctorAvailable: false,
+        {isDoctorAvailable: true,
         dayNumber: "24",
         isDoctorScheduled: false},
         {isDoctorAvailable: false,
@@ -138,6 +138,7 @@ const Calendar = () => {
                                 calendarArray={calendarArray} 
                                 key={uuid()}
                                 day={day.dayNumber}
+                                scheduleInfo={day}
                             />
                         )
                     })}

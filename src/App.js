@@ -13,7 +13,8 @@ class App extends Component {
       <Router className="App">
       <Header />
         <Switch>
-          <Route path="/calendar" component={Calendar}/>
+          <Route path="/appointment" component={Appointment} />
+          <Route path="/calendar" component={Calendar} />
         </Switch>
       </Router>
     );
