@@ -1,10 +1,12 @@
 import './Appointment.scss'
+
 import arrow from '../../assets/icons/backarrow.svg'
 import { Link } from 'react-router-dom';
 
 function Appointment () {
     return (
         <div className='appointment'>
+
             <div className='appointment__nav-container'>
                 <Link className='appointment__nav-link' to='/health'>
                     <img className='appointment__nav-arrow' src={arrow} alt='left arrow'/>
@@ -50,8 +52,6 @@ function Appointment () {
                     </div>
                 </div>
             </div>
-            
-
         </div>
     );
 }
