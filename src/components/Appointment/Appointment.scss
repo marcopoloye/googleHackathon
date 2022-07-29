@@ -3,7 +3,11 @@
 .appointment {
     padding: 0 1rem;
     font-family: 'Google Sans';
-    
+    display: flex;
+    flex-direction: column;
+    &__main {
+        display: flex;
+    }
     &__nav-container {
         display: flex;
     }

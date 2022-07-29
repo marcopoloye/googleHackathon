@@ -1,0 +1,80 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/global' as *;
+
+.homepage {
+    &__main {
+        display: flex;
+        font-family: 'Google Sans';
+    }
+    &__header {
+        display: flex;
+    }
+    &__text {
+        margin: 0;
+        color: black;
+        padding-top: 1rem;
+        font-size: 20px;
+        padding-left: 3rem;
+
+        &--blue {
+            color: #1418A4;
+            font-size: 20px;
+            background: url('../../assets/icons/id.svg') no-repeat 0% 50%;
+            margin-top: 0;
+            height: 50px;
+            padding-top: 1rem;
+            padding-left: 3rem;
+        }
+        &--red {
+            color: red;
+            font-size: 20px;
+        }
+    }
+    &__avatar {
+        height: 105px;
+        width: 105px;
+        border-radius: 50%;
+        background:grey;
+        margin-right: 3rem;
+    }
+    &__text-container {
+        margin-right: 15rem;
+    }
+    &__button {
+        padding: 1rem 5rem;
+        background: #34A853;
+        border: none;
+        color: white;
+        border-radius: 30px;
+        margin: .25rem 0;
+        font-size: 1.5rem;
+        &:hover {
+            background: #2e9249;
+        }
+    }
+    &__education {
+        border: 1px solid #F5F5F5;
+        border-radius: 2px;
+    }
+    &__text-heading {
+        background: #F8F9FA;
+        margin: 0;
+        padding: 1rem;
+        font-size: 24px;
+    }
+    &__text-subheading {
+        margin: 0;
+        padding: 1rem 1rem 0;
+        font-size: 24px;
+    }
+    &__text-body {
+        padding: 0 1rem;
+        color: #5F6368;
+        font-size: 18px;
+    }
+    &__text-read-more {
+        text-align: right;
+        color: blue;
+        padding: 0 1rem;
+    }
+}
