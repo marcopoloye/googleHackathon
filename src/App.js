@@ -18,7 +18,7 @@ class App extends Component {
         <Navigation/>
         <Switch>
           <Route path="/calendar" component={Calendar}/>
-          <Route path= '/' exact='/' component= {GoogleSearch} />
+          <Route path= '/search' component= {GoogleSearch} />
           <Route path= '/health/appointment' component= {Appointment}/>
         </Switch>
         <Footer/>
