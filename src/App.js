@@ -13,11 +13,11 @@ class App extends Component {
   render() {
     return (
       <Router className="App">
-        <Header />
-        <Navigation/>
+        {/* <Header />
+        <Navigation/> */}
         <Switch>
           <Route path="/calendar" component={Calendar}/>
-          <Route path= '/search' component= {GoogleSearch} />
+          <Route path= '/' exact component= {GoogleSearch} />
           <Route path= '/health/appointment' component= {Appointment}/>
         </Switch>
         <Footer/>
