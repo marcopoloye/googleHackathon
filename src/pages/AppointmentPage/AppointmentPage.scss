@@ -1,0 +1,27 @@
+.appointment-page__content {
+    display: flex;
+}
+
+.appointment-page__heading {
+    height: 2rem;
+    width: 50rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: rgba(0,0,0,0.10);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.appointment-page__button {
+    font-size: 1.25rem;
+    color: rgba(0,0,0,0.60);
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+}

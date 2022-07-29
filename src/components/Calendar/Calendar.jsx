@@ -149,8 +149,6 @@ class Calendar extends Component {
     render() {
         return (
             <>
-            <Header />
-            <Navigation/>
             <section className="calendar-page">
                 <img className="calendar-page__back-button" alt="Back Arrow Button"
                 src={BackButton}
@@ -197,7 +195,7 @@ class Calendar extends Component {
                     <p className='appointment-time__timeframes'>14:00-15:00</p>
                 </section>
                 </div>
-                <button onClick={this.handleConfirmClick}className={`confirm-button ${this.state.buttonClass}`}>Confirm</button>
+                {/* <button onClick={this.handleConfirmClick}className={`confirm-button ${this.state.buttonClass}`}>Confirm</button> */}
             </section>
             </>
         );

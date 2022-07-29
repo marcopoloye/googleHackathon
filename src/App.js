@@ -9,6 +9,7 @@ import Navigation from './components/Navigation/Navigation';
 import Appointment from './components/Appointment/Appointment';
 import GoogleSearch from './pages/GoogleSearch/GoogleSearch';
 import HomePage from './pages/HomePage/HomePage';
+import AppointmentPage from './pages/AppointmentPage/AppointmentPage'
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <Navigation/> */}
         <Switch>
           <Route path= '/health' exact component= {HomePage} />
-          <Route path= '/health/calendar' component={Calendar} />
+          <Route path= '/health/calendar' component={AppointmentPage} />
           <Route path= '/' exact component= {GoogleSearch} />
           <Route path= '/health/appointment' component= {Appointment} />
         </Switch>
