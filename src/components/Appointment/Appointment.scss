@@ -1,0 +1,118 @@
+@use '../../styles/partials/global' as *;
+
+.appointment {
+    padding: 0 1rem;
+    
+    &__nav-container {
+        display: flex;
+    }
+    &__nav-link {
+        margin-top: 1.5rem;
+    }
+    &__nav-text {
+        text-align: left;
+        color: #606367;
+        padding-left: 8rem;
+    }
+    &__nav-arrow {
+        cursor: pointer;
+    }
+    &__cards {
+        display: flex;
+        margin: 3rem 6rem;
+        justify-content: space-between;
+    }
+    &__booking-card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #E4E4E4;
+        border-radius: 10px;
+        width: 47%;
+        
+        &-header {
+            display: flex;
+            align-items: center;
+        }
+        &-avatar {
+            width: 50px;
+            height: 50px;
+            background: grey;
+            border-radius: 50%;
+            margin: .25rem 1rem 0 1rem;
+        }
+        &-header-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &-heading {
+            margin: 1rem 0 .25rem;
+        }
+        &-subheading {
+            margin: 0 0 .5rem;
+        }
+        &-body {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background: #6750A4EB;
+            padding: 1rem;
+        }
+        &-footer {
+            display: flex;
+            justify-content: center;
+        }
+        &-button {
+            padding: 1rem 5rem;
+            background: #34A853;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            margin: .25rem 0;
+            font-size: 1.5rem;
+            &:hover {
+                background: #2e9249;
+            }
+        }
+        &-text {
+            color: white;
+            padding: 1rem 3rem;
+            margin: 0;
+        }
+    }
+    &__details-card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #E4E4E4;
+        border-radius: 10px;
+        width: 47%;
+        
+        &-header {
+            display: flex;
+            align-items: center;
+        }
+        &-heading {
+            margin: 1.5rem 3.5rem 0;
+        }
+        &-body {
+            padding: 1rem;
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &-item {
+            margin-bottom: 3rem;
+        }
+    }
+}
+.address {
+    background: url('../../assets/icons/location.svg') no-repeat 0% 50%;
+}
+.phone {
+    background: url('../../assets/icons/phone.svg') no-repeat 0% 50%;
+}
+.mail {
+    background: url('../../assets/icons/mail.svg') no-repeat 0% 50%;
+}
