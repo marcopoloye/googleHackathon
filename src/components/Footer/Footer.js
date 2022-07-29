@@ -1,14 +1,14 @@
-
+import './Footer.scss';
 const Footer = () => {
     return (
-        <main>
-            <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Help</li>
-                <li>About</li>
+        <footer className="footer">
+            <ul className="footer__list">
+                <li className="footer__list-item" >Privacy</li>
+                <li className="footer__list-item">Terms</li>
+                <li className="footer__list-item">Help</li>
+                <li className="footer__list-item">About</li>
             </ul>
-        </main>
+        </footer>
     )
 }
 
