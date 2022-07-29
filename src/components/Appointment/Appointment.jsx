@@ -25,7 +25,6 @@ function Appointment () {
                 <div className='appointment__details-card-content'>
                     <div className='appointment__details-card-header'>Appointment Details</div>
                     <div className='appointment__details-card-text'>Lorem ipsum</div>
-
                 </div>
             </div>
         </div>
