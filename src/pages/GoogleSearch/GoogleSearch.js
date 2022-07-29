@@ -5,12 +5,12 @@ import GoogleHealthAlert from "../../components/GoogleHealthAlert/GoogleHealthAl
 
 function GoogleSearch () {
     return (
-        <>
+        <main>
             <GoogleSearchHeader />
             <GoogleLogo />
             <GoogleSearchBar />
             <GoogleHealthAlert />
-        </>
+        </main>
     );
 }
 

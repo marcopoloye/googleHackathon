@@ -5,6 +5,16 @@
     align-items: center;
     justify-content: center;
 }
+.searchbar__search {
+    position: relative;
+}
+.searchbar__microphone {
+    position:relative ;
+    top: 0.5rem;
+    right: 5rem;
+    width: 2rem;
+}
+
 
 .searchbar__input {
     border-radius: 30px;

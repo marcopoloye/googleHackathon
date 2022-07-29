@@ -1,12 +1,14 @@
 
 .footer {
-
+    
+   
     &__list {
         display: flex;
     justify-content: flex-start;
     list-style-type: none;
     background-color: #F8F9FA;
     padding-left: 1rem;
+    margin-bottom: 0;
     }
 
     &__list-item {

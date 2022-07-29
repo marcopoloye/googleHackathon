@@ -16,6 +16,7 @@ class App extends Component {
       <Header />
       <Navigation />
         <Navigation/>
+        <GoogleSearch/>
         <Switch>
           <Route path="/calendar" component={Calendar}/>
           <Route path= '/search' component= {GoogleSearch} />

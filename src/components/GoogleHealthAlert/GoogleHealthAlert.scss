@@ -1,12 +1,19 @@
 @use '../../styles/partials/fonts' as *;
 
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 10rem;
+    gap: 1rem;
+}
 .alert-text {
     color: #1418A4;
-    margin: 0 0 0 3.5rem;
+    margin: 0;
     font-family: 'Google Sans';
     font-size: 18px;
-    background: url(../../assets/icons/id.svg) no-repeat 40% 50%;
-    margin-bottom: 12rem;
     height: 35px;
     text-align: center;
     vertical-align: baseline;
