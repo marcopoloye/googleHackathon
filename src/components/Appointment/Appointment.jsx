@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 
 function Appointment () {
+
     return (
         <div className='appointment'>
             <Header />
@@ -33,7 +34,7 @@ function Appointment () {
                                 <p className='appointment__booking-card-text mail'>susany@icclinic.com</p>
                             </div>
                             <div className='appointment__booking-card-footer'>
-                                <button className='appointment__booking-card-button'>Book</button>
+                                <Link to="/health/calendar" className='appointment__booking-card-button'>Book</Link>
                             </div>
                         </div>
 
