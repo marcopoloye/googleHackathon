@@ -2,12 +2,34 @@
     display: flex;
     width: 14.28%;
     height: 5rem;
-    border: 1px solid blue;
     align-items: center;
     justify-content: center;
+    // font-weight: 700;
 
-    &:hover {
-        box-shadow: 0 1rem 1rem green;
-        transform: scale(1.1);
+    &__text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    
+    &__available {
+        color: black;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {            
+            background-color: lightcoral;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+        }
+    }
+
+    &__unavailable {
+        color: #A6A6A6;
+        margin: 0;
     }
 }

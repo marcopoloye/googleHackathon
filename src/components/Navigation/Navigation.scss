@@ -2,6 +2,7 @@
 
 .navigation {
 font-family: 'Google Sans';
+position: absolute;
 
     &__list {
         list-style-type: none;
@@ -11,9 +12,11 @@ font-family: 'Google Sans';
         width: 20%;
         height: 100vh;
     }
+
     &__list-item {
         padding: 0.5rem 1rem;
     }
+
     &__list-item--selected {
         background-color: #E9F0FD;
         width: 80%;
