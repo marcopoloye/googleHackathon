@@ -2,7 +2,8 @@ import React from 'react';
 import uuid from 'react-uuid';
 import './Calendar.scss';
 import DateCard from '../DateCard/DateCard';
-import NextButton from '../../assets/Next.png';
+import NextButton from '../../assets/icons/next.svg';
+import BackButton from '../../assets/icons/backarrow.svg';
 
 const Calendar = () => {
 
@@ -115,7 +116,9 @@ const Calendar = () => {
 
     return (
         <section className="calendar-page">
-            <img className="calendar-page__back-button" alt="Back Arrow Button"/>
+            <img className="calendar-page__back-button" alt="Back Arrow Button"
+            src={BackButton}
+            />
             <article className='calendar-page__dr-title'>Appointment with Dr. John Doe</article>
             <form className="calendar-form"> 
                 <div className='calendar-form__month-title-wrapper'>
@@ -143,10 +146,10 @@ const Calendar = () => {
                         )
                     })}
                 </article>
-                <article className='calendar-form__button-wrapper'>
+                {/* <article className='calendar-form__button-wrapper'>
                     <button className='calendar-form__button'>Return</button>
                     <button className='calendar-form__button'>Confirm</button>
-                </article>
+                </article> */}
             </form>
         </section>
     );

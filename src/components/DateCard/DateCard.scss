@@ -2,15 +2,15 @@
     display: flex;
     width: 14.28%;
     height: 5rem;
-    border: 1px solid blue;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    // font-weight: 700;
 
     &__text-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1.5rem;
     }
     
     &__available {
@@ -20,7 +20,7 @@
         justify-content: center;
         align-items: center;
 
-        &:active {            
+        &:hover {            
             background-color: lightcoral;
             height: 2rem;
             width: 2rem;
@@ -29,7 +29,7 @@
     }
 
     &__unavailable {
-        color: grey;
+        color: #A6A6A6;
         margin: 0;
     }
 }

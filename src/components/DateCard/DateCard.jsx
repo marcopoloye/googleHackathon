@@ -8,7 +8,7 @@ const DateCard = (props) => {
 
             {props.scheduleInfo.isDoctorAvailable 
             ? <div className='date-card__text-container'><p className="date-card__available">{props.day} </p></div>
-            : <p className="date-card__unavailable">{props.day} </p>}
+            : <div className='date-card__text-container'><p className="date-card__unavailable">{props.day}</p></div>}
             
         </article>
     );
