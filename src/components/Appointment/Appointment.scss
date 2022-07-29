@@ -1,0 +1,90 @@
+@use '../../styles/partials/breakpoints' as *;
+
+.appointment {
+    margin: 2rem 3rem;
+
+    &__submit-button {
+        border: none;
+        cursor: pointer;
+        padding: 1rem 0;
+        width: 100%;
+        border-radius: 5px;
+    }
+    &__card {
+        background: rgb(87, 87, 18);
+        margin-top: 1rem;
+
+        &-content {
+            padding: 1rem 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-avatar {
+            height: 5rem;
+            width: 5rem;
+            border-radius: 50%;
+            background: grey;
+            border-radius: 50%;
+            background-size: cover;
+        }
+        &-subheading {
+            background: green;
+            margin: 2rem 0;
+            width: 100%;
+        }
+        &-inner-container {
+            display: flex;
+            justify-content: center;
+            border: 5px solid black;
+            padding: 2rem 0;
+            background: green;
+            width: 100%;
+        }
+        &-bottom-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 1rem;
+        }
+        &-bottom-container-button {
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        &-bottom-container-text, &-bottom-container-button {
+            width: 40%;
+            margin: 0;
+        }
+        &-bottom-container-text {
+            text-align: center;
+            background: green;
+        }
+        &:hover {
+            border: 5px solid black;
+        }
+    }
+    &__details-card {
+        margin-top: 2rem;
+        background: green;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+        &-header {
+            padding-bottom: 10rem;
+        }
+    }
+
+    @include desktop {
+        display: flex;
+        justify-content: space-between;
+
+        &__book, &__details-card {
+            width: 45%;
+        }
+        &__details-card {
+            margin-top: 4rem;
+        }
+    }
+}
