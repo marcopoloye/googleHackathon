@@ -5,6 +5,7 @@ import Calendar from "../../components/Calendar/Calendar";
 import uuid from 'react-uuid';
 import DateCard from '../../components/DateCard/DateCard';
 import NextButton from '../../assets/icons/next.svg';
+import {Link} from 'react-router-dom';
 
 function HomePage() {
 
@@ -129,7 +130,7 @@ function HomePage() {
                     </div>
 
                     <div className="homepage__appointment-button-container">
-                        <button className="homepage__appointment-button">Appointment</button>
+                        <Link to="/health/appointment" className="homepage__appointment-button">Appointment</Link>
                     </div>
 
                     <div className="homepage__calendar-content">
