@@ -13,7 +13,8 @@ class App extends Component {
   render() {
     return (
       <Router className="App">
-        <Header />
+      <Header />
+      <Navigation />
         <Navigation/>
         <Switch>
           <Route path="/calendar" component={Calendar}/>

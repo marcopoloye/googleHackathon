@@ -6,16 +6,31 @@
     justify-content: space-between;
     width: 100%;
     font-family: 'Google Sans';
+    &__logo {
+        width: 6rem;
+        height: 2rem ;
+        margin-left: 1rem;
+    }
     &__row {
         display: flex;
         justify-content: center;
         align-items: center;
     }
     &__title {
-        font-size: 1.5rem ;
+        font-size: 1.2rem ;
         font-family: sans-serif ;
-        margin: 1rem 1.5rem 1rem 1.5rem;
+        margin: 1rem 1.5rem 1rem 0.5rem;
         font-family: 'Google Sans';
+        color: #5F6368;
+    }
+    &__patient {
+        vertical-align: sub;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        font-weight: normal;
+    }
+    &__search {
+        position: relative;
     }
     &__search-bar {
         width: 36rem;
@@ -27,11 +42,29 @@
     } ::placeholder {
         font-family: 'Google Sans'
     }
+    &__microphone {
+        position:relative ;
+        top: 0.5rem;
+        right: 3rem;
+        width: 2rem;
+    }
     &__row-avatar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__avatar-box {
+        border: 0 solid white;
+        margin-right: 4rem;
+    }
+
+    &__avatar {
         width: 3rem;
         height: 3rem;
         margin: 1rem 2rem 1rem 1rem;
         border-radius: 50%;
         background-color:rgb(180, 178, 178) ;
+    
     }
 }
