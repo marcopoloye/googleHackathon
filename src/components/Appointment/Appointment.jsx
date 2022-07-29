@@ -7,7 +7,7 @@ function Appointment () {
         <div className='appointment'>
             <div className='appointment__nav-container'>
                 <Link className='appointment__nav-link' to='/health'>
-                    <img className='appointment__nav-arrow' src={arrow}/>
+                    <img className='appointment__nav-arrow' src={arrow} alt='left arrow'/>
                 </Link>
                 <h1 className='appointment__nav-text'>Appointment</h1>
             </div>
