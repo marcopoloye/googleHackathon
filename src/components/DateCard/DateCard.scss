@@ -20,12 +20,19 @@
         justify-content: center;
         align-items: center;
 
+
         &:hover {            
             background-color: lightcoral;
             height: 2rem;
             width: 2rem;
             border-radius: 50%;
         }
+
+        // &:active {
+        //     background-color: blue;
+        // }
+
+
     }
 
     &__unavailable {
