@@ -14,6 +14,7 @@ const Header = () => {
                 <img src='' 
                 // alt=' avatar of user'
                 className='header__avatar' 
+                alt='placeholder text'
                 />
             </section>
 
