@@ -28,7 +28,7 @@ function Appointment () {
                                 </div>
                             </div>
                             <div className='appointment__booking-card-body'>
-                                <p className='appointment__booking-card-text address'>885 W Georgia St #110A, Boise, ID, L6C 2G2</p>
+                                <p className='appointment__booking-card-text address'>885 W Georgia St #110A, Boise, ID, I6C 2G2</p>
                                 <p className='appointment__booking-card-text phone'>604-639-8088</p>
                                 <p className='appointment__booking-card-text mail'>susany@icclinic.com</p>
                             </div>
