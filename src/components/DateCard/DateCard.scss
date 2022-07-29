@@ -20,16 +20,32 @@
         justify-content: center;
         align-items: center;
 
+
         &:hover {            
             background-color: lightcoral;
             height: 2rem;
             width: 2rem;
             border-radius: 50%;
         }
+
+        // &:active {
+        //     background-color: blue;
+        // }
+
+
     }
 
     &__unavailable {
         color: #A6A6A6;
         margin: 0;
     }
+}
+
+.selected-date {
+    color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }

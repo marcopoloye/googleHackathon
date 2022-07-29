@@ -11,14 +11,28 @@ import Navigation from '../Navigation/Navigation';
 class Calendar extends Component {
 
     state = {
-        timeClass: "appointment-time--none"
+        timeClass: "appointment-time--none",
+        dateNumberClass: "date-card__available"
     }
 
     handleDateClick = () => {
         this.setState({
-            timeClass: "appointment-time"
+            timeClass: "appointment-time",
         })
     }
+
+    handleNumClick = () => {
+        this.setState({
+            dateNumberClass: "selected-date"
+        })
+    }
+
+
+    handleAppointmentClick = () => {
+        console.log(this.props.history.push("/"))
+    }
+
+
 
 
     // calendarArray has been made in this format to add other months as objects if needed, or other key/value pairs besides the days if needed.
@@ -158,6 +172,8 @@ class Calendar extends Component {
                                     day={day.dayNumber}
                                     scheduleInfo={day}
                                     handleDateClick={this.handleDateClick}
+                                    availableClass={this.state.dateNumberClass}
+                                    handleNumClick={this.handleNumClick}
                                 />
                             )
                         })}
@@ -167,7 +183,7 @@ class Calendar extends Component {
                         <button className='calendar-form__button'>Confirm</button>
                     </article> */}
                 </form>
-                <section className={`${this.state.timeClass}`}>
+                <section onClick={this.handleAppointmentClick} className={`${this.state.timeClass}`}>
                     <p className='appointment-time__timeframes'>9:00-10:00</p>
                     <p className='appointment-time__timeframes'>11:00-12:00</p>
                     <p className='appointment-time__timeframes'>14:00-15:00</p>
