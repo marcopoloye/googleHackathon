@@ -10,7 +10,7 @@ function App() {
       {/* <Header /> */}
       <Switch>
         <Route path= '/' exact='/' component= {GoogleSearch} />
-        <Route path= '/appointment' component= {Appointment}/>
+        <Route path= '/health/appointment' component= {Appointment}/>
       </Switch>
     </Router>
       

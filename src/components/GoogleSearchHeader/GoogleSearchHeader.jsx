@@ -10,7 +10,7 @@ function GoogleSearchHeader() {
             </section>
             <section className="search-header__items-right">
                 <label className='search-header__label'>Gmail</label>
-                <Link className='search-header__link' to='/home'>
+                <Link className='search-header__link' to='/health'>
                     <label className='search-header__label-health' id= 'link'>Health</label>
                 </Link>
                 <div className='search-header__bento-icon'/>
