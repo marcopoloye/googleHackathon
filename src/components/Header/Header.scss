@@ -4,6 +4,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    font-family: 'Google Sans';
     &__row {
         display: flex;
         justify-content: center;

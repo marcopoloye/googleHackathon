@@ -1,7 +1,10 @@
+@use '../../styles/partials/fonts' as *;
+
 .search-header {
     display: flex;
     justify-content: space-between;
     margin: 3rem 7rem;
+    font-family: 'Google Sans';
 
     &__label {
         margin-right: 1rem;
