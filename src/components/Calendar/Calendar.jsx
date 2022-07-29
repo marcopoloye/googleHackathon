@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import uuid from 'react-uuid';
 import './Calendar.scss';
+import uuid from 'react-uuid';
 import DateCard from '../DateCard/DateCard';
 import NextButton from '../../assets/icons/next.svg';
 import BackButton from '../../assets/icons/backarrow.svg';
@@ -150,6 +150,7 @@ class Calendar extends Component {
         return (
             <>
             <Header />
+            <div className='test'>
             <Navigation/>
             <section className="calendar-page">
                 <img className="calendar-page__back-button" alt="Back Arrow Button"
@@ -199,6 +200,7 @@ class Calendar extends Component {
                 </div>
                 <button onClick={this.handleConfirmClick}className={`confirm-button ${this.state.buttonClass}`}>Confirm</button>
             </section>
+            </div>
             </>
         );
     }

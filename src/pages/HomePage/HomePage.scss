@@ -79,8 +79,10 @@
     }
     &__calendar-content {
         margin-top: 2rem;
+        margin-right: 2rem;
         display: flex;
         width: 100%;
+        gap: 5rem;
     }
     &__calendar-card-medical {
         background: #F5F5F5;
@@ -144,14 +146,14 @@
     }
 
 }
-.calendar-page__dr-title, .calendar-page__back-button {
-    display: none;
-}
-.calendar-page {
-    width: 50%;
-    margin-left: 0;
-    padding: 0;
-}
+// .calendar-page__dr-title, .calendar-page__back-button {
+//     display: none;
+// }
+// .calendar-page {
+//     width: 50%;
+//     margin-left: 0;
+//     padding: 0;
+// }
 .text-bold {
     font-weight: 600;
 }
