@@ -1,0 +1,13 @@
+.date-card {
+    display: flex;
+    width: 14.28%;
+    height: 5rem;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        box-shadow: 0 1rem 1rem green;
+        transform: scale(1.1);
+    }
+}
