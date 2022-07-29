@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Calendar from './components/Calendar/Calendar';
@@ -20,5 +21,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

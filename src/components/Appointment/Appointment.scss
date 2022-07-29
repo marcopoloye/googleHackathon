@@ -1,91 +1,118 @@
-@use '../../styles/partials/breakpoints' as *;
 @use '../../styles/partials/global' as *;
 
 .appointment {
-    margin: 2rem 3rem;
-
-    &__submit-button {
-        border: none;
-        cursor: pointer;
-        padding: 1rem 0;
-        width: 100%;
-        border-radius: 5px;
+    padding: 0 1rem;
+    
+    &__nav-container {
+        display: flex;
     }
-    &__card {
-        background: rgb(87, 87, 18);
-        margin-top: 1rem;
-
-        &-content {
-            padding: 1rem 3rem;
+    &__nav-link {
+        margin-top: 1.5rem;
+    }
+    &__nav-text {
+        text-align: left;
+        color: #606367;
+        padding-left: 8rem;
+    }
+    &__nav-arrow {
+        cursor: pointer;
+    }
+    &__cards {
+        display: flex;
+        margin: 3rem 6rem;
+        justify-content: space-between;
+    }
+    &__booking-card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #E4E4E4;
+        border-radius: 10px;
+        width: 47%;
+        
+        &-header {
             display: flex;
-            flex-direction: column;
             align-items: center;
         }
         &-avatar {
-            height: 5rem;
-            width: 5rem;
-            border-radius: 50%;
+            width: 50px;
+            height: 50px;
             background: grey;
             border-radius: 50%;
-            background-size: cover;
+            margin: .25rem 1rem 0 1rem;
+        }
+        &-header-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &-heading {
+            margin: 1rem 0 .25rem;
         }
         &-subheading {
-            background: green;
-            margin: 2rem 0;
-            width: 100%;
+            margin: 0 0 .5rem;
         }
-        &-inner-container {
+        &-body {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background: #6750A4EB;
+            padding: 1rem;
+        }
+        &-footer {
             display: flex;
             justify-content: center;
-            border: 5px solid black;
-            padding: 2rem 0;
-            background: green;
-            width: 100%;
         }
-        &-bottom-container {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            margin-top: 1rem;
-        }
-        &-bottom-container-button {
+        &-button {
+            padding: 1rem 5rem;
+            background: #34A853;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            color: white;
+            border-radius: 30px;
+            margin: .25rem 0;
+            font-size: 1.5rem;
+            &:hover {
+                background: #2e9249;
+            }
         }
-        &-bottom-container-text, &-bottom-container-button {
-            width: 40%;
+        &-text {
+            color: white;
+            padding: 1rem 3rem;
             margin: 0;
-        }
-        &-bottom-container-text {
-            text-align: center;
-            background: green;
-        }
-        &:hover {
-            border: 5px solid black;
         }
     }
     &__details-card {
-        margin-top: 2rem;
-        background: green;
         display: flex;
-        justify-content: center;
-        padding: 1rem;
-
+        flex-direction: column;
+        border: 1px solid #E4E4E4;
+        border-radius: 10px;
+        width: 47%;
+        
         &-header {
-            padding-bottom: 10rem;
+            display: flex;
+            align-items: center;
+        }
+        &-heading {
+            margin: 1.5rem 3.5rem 0;
+        }
+        &-body {
+            padding: 1rem;
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &-item {
+            margin-bottom: 3rem;
         }
     }
-
-    @include desktop {
-        display: flex;
-        justify-content: space-between;
-
-        &__book, &__details-card {
-            width: 45%;
-        }
-        &__details-card {
-            margin-top: 4rem;
-        }
-    }
+}
+.address {
+    background: url('../../assets/icons/location.svg') no-repeat 0% 50%;
+}
+.phone {
+    background: url('../../assets/icons/phone.svg') no-repeat 0% 50%;
+}
+.mail {
+    background: url('../../assets/icons/mail.svg') no-repeat 0% 50%;
 }
