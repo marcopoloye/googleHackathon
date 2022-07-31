@@ -26,4 +26,4 @@ Rebecca Yang, Fei Yang Jing
 
 -----------------------
 
-BrainStation Industry Hackathon 2022
+BrainStation 24 Hour Industry Hackathon 2022
