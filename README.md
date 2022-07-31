@@ -24,3 +24,6 @@ Jelena Capin, Barid Temple
 #### UX Designers:
 Rebecca Yang, Fei Yang Jing
 
+-----------------------
+
+BrainStation Industry Hackathon 2022
