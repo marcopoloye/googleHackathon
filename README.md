@@ -13,6 +13,18 @@ Healthcare providers are able to provide and accept appointments, and send any u
 - Clear and easy to navigate UI with accessible color palette
 - User consented collected data is used to provide tips and advice to help patients better manage their conditions
 
+
+## Screenshots
+
+Landing Page:
+
+![image](https://user-images.githubusercontent.com/104222379/190879854-fd5d2ad4-7d54-4d24-a792-5b7ab370d772.png)
+
+
+Appointments Page:
+
+![image](https://user-images.githubusercontent.com/104222379/190879865-ea2601b4-0220-4679-ae20-c17afaa5509c.png)
+
 ---------------------
 #### Developed by: 
 Jakob Luter, Victory Onuoha, Marco Ye
