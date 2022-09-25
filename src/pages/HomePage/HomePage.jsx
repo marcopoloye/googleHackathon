@@ -1,7 +1,6 @@
 import Header from "../../components/Header/Header";
 import Navigation from "../../components/Navigation/Navigation";
 import './HomePage.scss';
-import Calendar from "../../components/Calendar/Calendar";
 import uuid from 'react-uuid';
 import DateCard from '../../components/DateCard/DateCard';
 import NextButton from '../../assets/icons/next.svg';
