@@ -6,6 +6,8 @@ Patients can easily manage and view their appointments with local healthcare pro
 
 Healthcare providers are able to provide and accept appointments, and send any updates or necessary information prior to their appointments.
 
+https://googlehealthconnect.netlify.app/
+
 ## Features
 
 - Book and cancel appointments from the patients' end
