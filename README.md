@@ -19,6 +19,7 @@ https://googlehealthconnect.netlify.app/
 ## Screenshots
 
 Landing Page:
+![Screenshot 2022-10-15 180418](https://user-images.githubusercontent.com/104222379/196009349-e293823e-71f8-4dd2-9b81-c8905f019169.png)
 
 ![image](https://user-images.githubusercontent.com/104222379/190879854-fd5d2ad4-7d54-4d24-a792-5b7ab370d772.png)
 
