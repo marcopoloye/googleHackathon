@@ -1,4 +1,4 @@
-# Google Health Connect
+# About
 
 An online portal that connects healthcare providers to patients with a focus on accessibility.
 
