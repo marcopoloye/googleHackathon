@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Calendar from './components/Calendar/Calendar';
 import Footer from './components/Footer/Footer';
 import Appointment from './components/Appointment/Appointment';
-import GoogleSearch from './pages/GoogleSearch/GoogleSearch';
 import HomePage from './pages/HomePage/HomePage';
 
 class App extends Component {
@@ -13,10 +12,9 @@ class App extends Component {
     return (
       <Router className="App">
         <Switch>
-          <Route path= '/health' exact component= {HomePage} />
-          <Route path= '/health/calendar' component={Calendar} />
-          <Route path= '/' exact component= {GoogleSearch} />
-          <Route path= '/health/appointment' component= {Appointment} />
+          <Route path= '/calendar' component={Calendar} />
+          <Route path= '/' exact component= {HomePage} />
+          <Route path= '/appointment' component= {Appointment} />
         </Switch>
         <Footer/>
       </Router>
